@@ -1,41 +1,35 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Observa-se que a procura constante por serviços oferecidos no ramo da estética vem crescendo atualmente de forma exponencial, esse crescimento vem sendo associado por conta de uma sociedade cada vez mais exigente em relação aos padrões de beleza.
+A aparência adequada, satisfação com a autoimagem e a busca incessante da estética, tornaram-se requisitos essenciais para obtenção de qualidade de vida e a busca da felicidade, pois estão ligados com a forma de se perceber em relação à sociedade (COPATTI SL et al; 2017).
+Entendendo sobre essas informações, é possível perceber o grande aquecimento desse mercado, diferente de outros que apresentam oscilações, este vem sendo um dos mais promissores do nosso país, capaz de movimentar bilhões em procedimentos.
+Os centros e clínicas que pretendem se ater neste mercado, terão de investir em recursos tecnológicos de alta qualidade e estar constantemente se atualizando e inovando. Isso se aplica tanto em seus procedimentos quanto em sua infraestrutura, para melhor gerenciamento de suas agendas.
+Muitos desses lugares não possuem um sistema para agendamento de avaliações e realização de tratamentos estéticos, conforme o tipo de serviço que o cliente deseja e o tempo gasto por cada procedimento. Isso pode provocar um certo prejuízo ao longo prazo, pois pode acarretar em perdas de clientes, por não poder atendê-los, devido a falhas de planejamento de horários e não flexibilidade em sua agenda durante o plantão.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Conforme exposto, a problemática que se busca resolver com esse projeto é a falta de um sistema direcionado a solucionar falhas de agendamentos e planejamentos para procedimentos estéticos conforme o seu tempo de realização, onde os mesmos, interferem na otimização da agenda do dia, impedindo visualização para atendimentos de rápida execução.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
+Criar um sistema para facilitar no gerenciamento de horários por procedimentos, aproveitando ao máximo a agenda do dia, por meio de interface que possibilitam visualizar janelas de horários vagos para procedimentos de rápida execução, solucionando desfechos que interferem no aumento da demanda, na flexibilidade para atendimentos e na satisfação geral. 
+Também será criado ferramentas para fortalecer a integração e comunicação com cliente, por meio de mensagens, confirmando seu procedimento, o dia, a hora e possíveis intercorrências que possam vir a ocorrer.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Por conta de uma sociedade cada vez mais exigente em relação aos padrões de beleza, o mercado da estética tornou-se motivo de destaque em uma sociedade atualizada e moderna. 
+De acordo com o (SEBRAE, 2019), esse mercado estético vem se tornando uma área imensamente competitiva em todo o mundo.
+Para manter-se vivo no mercado competitivo e concorrido da beleza é preciso definir algumas metas, planos de ação, estratégias de mercado e possuir tecnologias para modernizar e facilitar o trabalho. O uso de software direcionados para o prestador do serviço, garante organização, gerenciamento fidedigno e aumento do fluxo de clientes, pois permite uma visualização geral de tudo que está ocorrendo, obtendo oportunidades para melhorias de todo o fluxo.
+Ainda de acordo com o (SEBRAE, 2019), a respeito da utilização de software, as novas tecnologias são de grande valia para a realização das atividades de gerenciamento, pois possibilitam um controle rápido e eficaz. O empreendedor poderá consultar no mercado as mais variadas ferramentas e escolher a que mais se adequa às suas necessidades.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Proprietários de centros e clínicas de estética avançada, clínicas de tratamento a laser, salões de beleza e profissionais de estética autônomos (Médicos, Biomédicos, Odontologistas, Farmacêuticos, Fisioterapeutas, Tecnólogos em estética e entre outros).
+
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
