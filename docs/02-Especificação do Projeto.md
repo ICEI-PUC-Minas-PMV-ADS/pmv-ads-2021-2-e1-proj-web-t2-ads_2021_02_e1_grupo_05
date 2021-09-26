@@ -88,8 +88,8 @@ Para resolver os problemas da Rosana Assunção nossa empresa pode: nós podemos
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+
 
 ## Histórias de Usuários
 
@@ -109,7 +109,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -126,16 +126,40 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01|	O site deve oferecer menu contendo os horários vagos para os clientes visualizarem de acordo com o procedimento|Alta|
+|RF-02|	Site deve oferecer menu para o dono da clínica visualizar os horários marcados e livres|	Alta|
+|RF-03|	Site deve mandar mensagem automática para whatsapp/SMS|	Médio|
+|RF-04|	Site deve oferecer relatório de Hora/Homem (HM) para o dono do estabelecimento poder quantificar o tempo médio de cada procedimento|	Alta|
+|RF-05|	Site deve permitir exportação dos relatórios de Hora/Homem (HM) para formato de planilha|	Médio|
+|RF-06|	Site deve permitir que os clientes façam comentários opinativos sobre o serviço fornecido|	Baixo|
+|RF-07|	Site deve conter descrição de cada procedimento disponível para ser realizado|	Médio|
+|RF-08|	Site deve conter espaço de divulgação das redes sociais da clínica (Instagram, Tiktok, Facebook e Youtube)|	Baixo|
+|RF-09|	Site deve permitir que os clientes possam realizar buscas pelo nomes dos procedimentos|	Médio|
+|RF-10|	Site deve conter opção para o cliente entrar em contato com a clínica para cancelar, confirmar ou alterar horários|	Alto|
+|RF-11|	Site deve conter avisos referentes ao procedimento que o cliente está prestes a realizar|	Médio|
+|RF-12|	Site deverá conter questionário para o cliente sobre alergias com determinadas substâncias antes da confirmação do procedimento|	Médio|
+|RF-13|	Site deverá possibilitar o cliente criar um cadastro|	Baixo|
+|RF-14|	Site deverá possibilitar o cliente a consultar o histórico de procedimentos já realizados|	Baixo|
+|RF-15|	Site deve possibilitar o dono da clínica consultar perfil do cliente|	Baixo|
+|RF-16|	Site deve possibilitar dono consultar procedimentos já realizados por aquele cliente|	Baixo|
+|RF-17|	Site deve conter área para dicas de saúde|	Baixo|
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01|	O site deve ser compatível com os navegadores mais utilizados (Google Chrome, Firefox, Microsoft Edge, Opera)|Alta|
+|RNF-02|	Site deve seguir as diretrizes da Lei Geral de Proteção de Dados Pessoais (LGPD)|	Alta|
+|RNF-03|	Site deve responder a pesquisa do cliente em até 3 segundos|Alta|
+|RNF-04|	Site deve exibir todos elementos visuais (texto e ícones) na resolução mínima de 800x600 até 1920x1080|Alta|
+|RNF-05|	Site deve funcionar 24 horas por dia, 7 dias por semana|Alta|
+|RNF-06|	Site permitir portabilidade para aplicativos de smartphones em até 1 mês|Médio|
+|RNF-07|	Site deve permitir ao usuário completar o cadastro em menos 2 minutos|Alta|
+|RNF-08|	Site deve exigir senhas de cadastro com letras e números de acordo com Padrão ASCII|Alta|
+|RNF-09|	Site deve ser compatível com modo de leitura vertical ou horizontal|Alta|
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -158,11 +182,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| 	O projeto deverá estar pronto até o prazo de entrega que será no dia 01/09/2023.| 
+|RE-02| 	O projeto deverá ser exclusivo ao respectivo público-alvo.| 
+|RE-03| 	O projeto deverá ser desenvolvido com toda a estrutura tecnológica Front-End.|  
+|RE-04| 	O projeto deverá ser responsivo e se comportar perfeitamente na maioria dos navegadores.(Google, Mozilla, Microsoft Edge…)|
+|RE-05| 	O projeto deverá ser desenvolvido e arquitetado apenas pela equipe responsável pelo mesmo.| 
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+
+
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
