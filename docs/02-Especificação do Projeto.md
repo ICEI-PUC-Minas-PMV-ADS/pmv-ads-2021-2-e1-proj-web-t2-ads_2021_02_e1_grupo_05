@@ -8,9 +8,78 @@ A possibilidade de uma interface com funções de visualizações das janelas de
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Vanessa Oliveira, 35 anos, Administradora de empresa, casada, mãe de um filho, moradora da cidade de Belo Horizonte- MG, sócia proprietária da empresa de estética Beatiful Skin: Procedimentos à laser.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Rotina diária: Ele acorda por volta de 6 horas da manhã e vai tomar o café da manhã em casa com a família, em seguida vai para a clínica. Na hora do almoço vai ao restaurante perto da empresa para comer seu prato favorito que é comida italiana, depois do almoço retorna a empresa e por volta das 18 hr vai embora para casa ficar com a família.
+
+Principais aplicativos que ela acessa: WhatsApp, Instagram, Youtube.
+
+As atividades preferidas do dia a dia são: Trabalhar, ficar com a família, assistir séries.
+
+Objetivos para realizar na empresa: aumentar o número de clientes da empresa, inovar o atendimento ao cliente.
+
+As principais barreiras enfrentadas por ela são: falta de orçamento, falta de criatividade tecnológica e concorrência.
+
+Hoje Vanessa Oliveira tenta resolver seus problemas da seguinte forma: Investindo em propaganda em mídias sociais principalmente através do Instagram e melhorando os equipamentos da clínica. 
+
+E na hora de buscar solução ela sempre tem essas dúvidas: Como fazer para atrair mais clientes? Qual tecnologia utilizar? 
+
+Para resolver os problemas da Vanessa nossa empresa pode: Desenvolver um site com visualização diária ou semanal da agenda organizando seus compromissos com agilidade e praticidade de qualquer lugar.
+
+Cecília Rodrigues, 27 anos, tecnóloga em procedimentos estéticos, solteira, moradora da cidade de Belo Horizonte- MG, sócia proprietária da empresa de estética Beatiful Skin: Procedimentos à laser. 
+
+Rotina diária: Ela acorda por volta das 7 horas da manhã, toma seu café da manhã na padaria, chega à clínica às 8 horas da manhã, almoça na empresa via pedido delivery, antes de voltar ao trabalho acessa as mídias sociais. Às 18 horas sai do trabalho e vai para academia e depois para casa.
+
+Principais aplicativos que ela acessa: WhatsApp, Instagram, Tik Tok.
+ 
+As atividades preferidas do dia a dia são: trabalhar; viajar; sair à noite.
+
+Objetivos para realizar na empresa: Realizar um atendimento de excelência.
+
+As principais barreiras enfrentadas por ela: dificuldade na marcação de agendamento das clientes devido à atraso ou de imprevisto nos procedimentos dificultando no atendimento.
+
+Hoje Cecilia Rodrigues tenta resolver seus problemas da seguinte forma: Ligando para as clientes avisando que ocorreu um atraso nos procedimentos . 
+
+E na hora de buscar solução ela sempre tem essas dúvidas: Se o cliente já saiu de casa; Se o cliente vai atender o telefone; Se o cliente vai ficar chateado.
+
+Para resolver os problemas da Vanessa nossa empresa pode: Desenvolver um site que mostre o tempo necessário para a realização de cada consulta, assim ela pode se organizar melhor. Desenvolver um site que mostre um tópico “Lista de agendamento e ausências” assim ela terá o seu alcance, e sob seu total controle, a listagem dos clientes que se ausentaram e que compareceram aos agendamentos efetuados.
+
+Fernanda Silva, 32 anos, advogada criminalista, solteira, moradora da cidade de Belo Horizonte- MG.
+
+Rotina diária: Ela tem uma rotina agitada pois é trainee em uma empresa de consultoria .Acorda por volta das 7 horas da manhã prepara o seu café em casa, vai para o trabalho de ônibus chega por volta das 8 horas, almoça no trabalho com sua refeição preparada em casa. Sai do trabalho por volta das 18 horas, normalmente vai para academia à noite e quando possível sai para o barzinho com as amigas.
+
+Principais aplicativos que ela acessa: WhatsApp, Instagram, Tinder.
+
+As atividades preferidas do dia a dia são: Trabalhar; cuidar da saúde estética e estudar.
+
+Objetivos para realizar na vida: Crescer profissionalmente e ser rica.
+
+As principais barreiras enfrentadas por ela no dia a dia: Tempo escasso.
+
+Hoje ela tenta resolver seu problema de realizar um procedimento estético da seguinte forma: Memorizando a data do procedimento estético.
+
+E na hora de buscar solução ela sempre tem essas dúvidas: Em que dia e hora foi marcado o procedimento estético 
+
+Para resolver os problemas da Fernanda Silva nossa empresa pode: desenvolver um site que tenha o tópico: “Envio de SMS Lembrete”, onde ao realizar um agendamento, ela receberá via SMS um lembrete de seu agendamento.
+
+Rosana Assunção, 65 anos, aposentada, casada, moradora da cidade de Belo Horizonte- MG.
+
+Rotina diária: Ela acorda às 7 horas da manhã, toma seu café em casa. Por volta das 9 horas vai à academia, volta para casa 11 horas para preparar o seu almoço. À tarde gosta de assistir tv e à noite janta e vai dormir por volta das 21 horas.
+
+Principais aplicativos que ela acessa: WhatsApp, Facebook.
+ 
+As atividades preferidas do dia a dia são: Assistir televisão, cuidar da saúde e estética.
+
+Objetivos para realizar na vida: Ter uma boa qualidade de vida.
+
+As principais barreiras enfrentadas por ela no dia a dia na hora de ir para a clínica estética: estacionar o carro, pois só há uma vaga no estabelecimento e se estiver ocupado tem que pagar um estacionamento pois a avenida onde fica localizada a clínica é movimentada não tendo espaço para estacionamento na rua.
+
+Hoje Rosana Assunção tenta resolver seu problema realizando um procedimento estético da seguinte forma: ligando para a clínica perguntando se está vago estacionamento. 
+
+E na hora de buscar solução ela sempre tem essas dúvidas: se o horário que a atendente estipulou que a outra cliente sairia da clínica irá mesmo se efetivar, pois podem ocorrer atrasos no procedimento estético. 
+
+Para resolver os problemas da Rosana Assunção nossa empresa pode: nós podemos desenvolver um site onde tenha o tópico: “agendamentos” onde a cliente que nesse caso é a Rosana possa visualizar quando tem um horário e o dia da semana livre e ainda mostrando o tempo necessário para cada procedimento.
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
