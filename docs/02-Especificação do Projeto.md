@@ -97,8 +97,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Vanessa Oliveira |  aumentar o número de clientes da empresa     |    aumentar o orçamento  |
+|Vanessa Oliveira|	Inovar o atendimento ao cliente|Inserir e sofisticar a empresa no atendimento ao cliente|
+|Cecília Rodrigues|	Realizar um atendimento de excelência	|Ter um cliente fiel.|
+|Cecília Rodrigues|	Visualizar os horários de atendimento e horários vagos|	Melhor organizar o tempo|
+|Fernanda Silva|	Receber notificações dos procedimentos via notificações no smartphone|	Não se esquecer ou atrasar nos procedimentos|
+|Fernanda Silva|	poder agendar o seu procedimento estético|	Ter mais liberdade e autonomia para marcar o melhor dia disponível para a realização do procedimento|
+|Rosana Assunção|	Poder visualizar no site o tempo necessário para realização de cada procedimento|	Não ficar esperando na fila até o horário de seu atendimento.|
+|Rosana Assunção|	 Receber notificações de atraso ou cancelamento na realização do procedimento|	Não se deslocar de casa desnecessariamente|
+
+
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
