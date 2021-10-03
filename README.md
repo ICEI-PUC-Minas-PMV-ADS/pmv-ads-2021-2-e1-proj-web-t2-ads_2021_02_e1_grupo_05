@@ -18,7 +18,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Joyce
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
