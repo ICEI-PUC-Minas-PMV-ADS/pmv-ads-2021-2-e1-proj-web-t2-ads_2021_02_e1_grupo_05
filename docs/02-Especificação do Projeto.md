@@ -9,22 +9,15 @@ A possibilidade de uma interface com funções de visualizações das janelas de
 ## Personas
 
 Vanessa Oliveira, 35 anos, Administradora de empresa, casada, mãe de um filho, moradora da cidade de Belo Horizonte- MG, sócia proprietária da empresa de estética Beatiful Skin: Procedimentos à laser.
-
 Rotina diária: Ele acorda por volta de 6 horas da manhã e vai tomar o café da manhã em casa com a família, em seguida vai para a clínica. Na hora do almoço vai ao restaurante perto da empresa para comer seu prato favorito que é comida italiana, depois do almoço retorna a empresa e por volta das 18 hr vai embora para casa ficar com a família.
-
 Principais aplicativos que ela acessa: WhatsApp, Instagram, Youtube.
-
 As atividades preferidas do dia a dia são: Trabalhar, ficar com a família, assistir séries.
-
 Objetivos para realizar na empresa: aumentar o número de clientes da empresa, inovar o atendimento ao cliente.
-
 As principais barreiras enfrentadas por ela são: falta de orçamento, falta de criatividade tecnológica e concorrência.
-
 Hoje Vanessa Oliveira tenta resolver seus problemas da seguinte forma: Investindo em propaganda em mídias sociais principalmente através do Instagram e melhorando os equipamentos da clínica. 
-
 E na hora de buscar solução ela sempre tem essas dúvidas: Como fazer para atrair mais clientes? Qual tecnologia utilizar? 
-
 Para resolver os problemas da Vanessa nossa empresa pode: Desenvolver um site com visualização diária ou semanal da agenda organizando seus compromissos com agilidade e praticidade de qualquer lugar.
+---
 
 Cecília Rodrigues, 27 anos, tecnóloga em procedimentos estéticos, solteira, moradora da cidade de Belo Horizonte- MG, sócia proprietária da empresa de estética Beatiful Skin: Procedimentos à laser. 
 
