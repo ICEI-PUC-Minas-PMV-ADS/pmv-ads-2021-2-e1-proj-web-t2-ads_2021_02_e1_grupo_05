@@ -41,18 +41,22 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 ### Divisão de Papéis
 
 Apresente a divisão de papéis entre os membros do grupo.
+
+A equipe está organizada da seguinte maneira:
+
 -
-A equipe está organizada da seguinte maneira
-●	Scrum Master- :Marcelo Henrique Sales Pimenta
+Scrum Master:
+Marcelo Henrique Sales Pimenta
 -
-●	Product Owner: Artur Camargos Rocha
+Product Owner: 
+Artur Camargos Rocha
 -
-●	Equipe de Desenvolvimento
-○	Ananery Lopes Ribeiro 
-○	Webert Figueiredo
+Equipe de Desenvolvimento:	
+Ananery Lopes Ribeiro 
+Webert Figueiredo
 -
-●	Equipe de Design
-○	Adriano Henrique Xavier Rodrigues
+Equipe de Design:
+Adriano Henrique Xavier Rodrigues
 -
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
