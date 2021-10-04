@@ -19,16 +19,21 @@ Segue abaixo descrição detalhada de cada tela e sua função no sistema.
 Área onde o dono da clínica escolhe mostrar mais informações (pequeno texto explicativo e vídeo) sobre determinado procedimento. Para facilitar o agendamento caso o usuário se interesse pelo procedimento, é possível agendar clicando no botão “Quero Agendar”, logo abaixo da parte textual do procedimento.
 
 ##### Botão cadastrar: 
+
 Ao clicar nesse botão, o usuário é redirecionado para uma tela de cadastro, conforme modelo abaixo: 
+
 ![image](https://user-images.githubusercontent.com/91165583/135901395-3db7b057-5bf2-4ada-9922-16c73bb69eaf.png)
+
 Após cadastro, usuário é redirecionado para a tela “Home-Page”
 
 ##### Botão entrar: 
 Ao clicar nesse botão, o usuário é redirecionado para a tela de “login/entrar”, conforme modelo abaixo:
+
  ![image](https://user-images.githubusercontent.com/91165583/135901705-2a1fe375-c1eb-4545-913d-7a8ecde16807.png)
  
  ##### Menu Procedimento: 
  Para o usuário consultar os procedimentos disponíveis para serem realizados, foi colocado uma    lista dropdown, que ao clicar, o usuário pode selecionar um procedimento e acessar mais informações sobre ele.
+ 
 ![image](https://user-images.githubusercontent.com/91165583/135901823-6dd9cbcd-c94f-4a5d-8a0f-5ceaf72e07a3.png)
 
  ## Tela – Procedimento:
@@ -94,19 +99,24 @@ Após selecionar o horário, o usuário pode finalizar o agendamento clicando no
 
 ## Tela - Agendamento Confirmado
 
+![image](https://user-images.githubusercontent.com/91165583/135904301-646f8be1-5076-421e-bcad-83557f5dade1.png)
+
+
 Após o agendamento ter sido confirmado, o usuário é redirecionado para uma tela com o resumo do agendamento, contendo os seguintes tópicos. 
 
 #### Procedimento: 
 Apresenta o nome do procedimento agendado
-### Horário: 
+#### Horário: 
 Mostra o horário agendado
-### Data: 
+#### Data: 
 Mostra a data agendada
 
-### Local: 
+#### Local: 
 Local da clínica, com o nome da Rua, Bairro e Cidade.
 
 Caso seja do interesse do usuário, é possível mandar uma mensagem para o whatsapp da clínica como uma segunda forma de confirmação. Basta o usuário clicar no botão “Confirmar também pelo whastsapp”, que ele será redirecionado para a página externa pela API de mensagens automáticas do Whatsapp.
 
-![image](https://user-images.githubusercontent.com/91165583/135902775-874b0e2d-d9c8-4535-9456-4183265a49b8.png)
+![image](https://user-images.githubusercontent.com/91165583/135904479-05b64d24-c76e-45a4-8c06-4fa1492b6c45.png)
+
+
 
