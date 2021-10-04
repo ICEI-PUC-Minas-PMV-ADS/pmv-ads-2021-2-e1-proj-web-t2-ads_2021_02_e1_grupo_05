@@ -14,6 +14,7 @@ Os componentes que fazem parte da solução são apresentados na Figura XX.
 
 ![Diagrama de Componentes]
 <center>Figura 1 - Arquitetura da Solução</center>
+
 ![image](https://user-images.githubusercontent.com/85761080/135779349-477bb03a-014f-478d-950b-67bb57447fb1.png)
 
 A solução implementada conta com os seguintes módulos:
