@@ -18,12 +18,13 @@ Os componentes que fazem parte da solução são apresentados na Figura XX.
 
 A solução implementada conta com os seguintes módulos:
 •	Cliente:
-	Browser – Irá permitir o acesso do cliente ao site 
-○	Web page – Irá conter os arquivos HTML, CSS e Java Script, além de imagens que serão essenciais para o designe do site.
-	Controle – Será responsável por fazer a requisição de um evento para o banco de dados.
+   	Browser – Irá permitir o acesso do cliente ao site 
+     ○	Web page – Irá conter os arquivos HTML, CSS e Java Script, além de imagens que serão essenciais para o designe do site.
+   	Controle – Será responsável por fazer a requisição de um evento para o banco de dados.
+   
 •	Servidor:
-	Back-End – Utilizando a linguagem PHP, o back-end será responsável pelo pleno funcionamento do site, sendo possível ser acessado apenas pelos desenvolvedores.
-	Base de Dados – Será responsável por conter todos os dados de clientes e informações referentes aos usuários do site.
+   	Back-End – Utilizando a linguagem PHP, o back-end será responsável pelo pleno funcionamento do site, sendo possível ser acessado apenas pelos desenvolvedores.
+   	Base de Dados – Será responsável por conter todos os dados de clientes e informações referentes aos usuários do site.
 
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
