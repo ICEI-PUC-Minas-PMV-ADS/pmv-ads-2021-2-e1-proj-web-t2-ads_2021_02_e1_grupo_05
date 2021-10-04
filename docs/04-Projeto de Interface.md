@@ -9,25 +9,25 @@ O processo de fluxo de usuário, bem como a completa navegação entre as telas 
 ## Wireframes
 Segue abaixo descrição detalhada de cada tela e sua função no sistema.
 	
- ## Tela Home - Page
+ ### Tela Home - Page
  
  ![image](https://user-images.githubusercontent.com/91165583/135900997-b38cb4a8-9e51-4b8b-9f68-22847586281e.png)
  
  Na tela Home-Page, o usuário tem a visualização dos seguintes itens:
 
-## Saiba mais sobre os procedimentos:  
+##### Saiba mais sobre os procedimentos:  
 Área onde o dono da clínica escolhe mostrar mais informações (pequeno texto explicativo e vídeo) sobre determinado procedimento. Para facilitar o agendamento caso o usuário se interesse pelo procedimento, é possível agendar clicando no botão “Quero Agendar”, logo abaixo da parte textual do procedimento.
 
-## Botão cadastrar: 
+##### Botão cadastrar: 
 Ao clicar nesse botão, o usuário é redirecionado para uma tela de cadastro, conforme modelo abaixo: 
 ![image](https://user-images.githubusercontent.com/91165583/135901395-3db7b057-5bf2-4ada-9922-16c73bb69eaf.png)
 Após cadastro, usuário é redirecionado para a tela “Home-Page”
 
-## Botão entrar: 
+##### Botão entrar: 
 Ao clicar nesse botão, o usuário é redirecionado para a tela de “login/entrar”, conforme modelo abaixo:
  ![image](https://user-images.githubusercontent.com/91165583/135901705-2a1fe375-c1eb-4545-913d-7a8ecde16807.png)
  
- ## Menu Procedimento: 
+ ##### Menu Procedimento: 
  Para o usuário consultar os procedimentos disponíveis para serem realizados, foi colocado uma    lista dropdown, que ao clicar, o usuário pode selecionar um procedimento e acessar mais informações sobre ele.
 ![image](https://user-images.githubusercontent.com/91165583/135901823-6dd9cbcd-c94f-4a5d-8a0f-5ceaf72e07a3.png)
 
@@ -35,15 +35,15 @@ Ao clicar nesse botão, o usuário é redirecionado para a tela de “login/entr
 
 Nessa tela o usuário tem acesso a um vídeo explicativo e a um pequeno texto sobre o procedimento selecionado. Segue descrição de alguns itens dessa tela.
 
-### Botão Agendar:
+##### Botão Agendar:
 
 Botão para que o usuário vá para a próxima etapa do agendamento
 
-### Lista Procedimentos:
+##### Lista Procedimentos:
 
 Assim como na tela home-page, o usuário tem acesso a um menu dropdown que permite o acesso a outros procedimentos. Ao selecionar outro procedimento por essa tela, aparece outro vídeo e texto relativo a escolha
 
-### Logo + Nome da Clínica:
+##### Logo + Nome da Clínica:
 
 Ao clicar nessa figura, o usuário retorna a tela home-page.
 
