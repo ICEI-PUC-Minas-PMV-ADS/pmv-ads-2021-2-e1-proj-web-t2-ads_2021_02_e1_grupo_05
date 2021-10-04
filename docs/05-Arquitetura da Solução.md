@@ -35,6 +35,10 @@ A solução implementada conta com os seguintes módulos:
 
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
+O site utiliza a plataforma Heruko como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
+https://dashboard.heroku.com/apps/agendarapida/deploy/github
+
+
 > **Links Úteis**:
 >
 > - [Whimsical](https://whimsical.com/)
