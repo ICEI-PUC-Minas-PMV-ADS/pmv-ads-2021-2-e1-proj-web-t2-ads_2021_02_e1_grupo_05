@@ -1,10 +1,10 @@
 # Plus Service
 
-`Analise e ...`
+`Analise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento Web Front-End`
 
-`SEMESTRE`
+`Primeiro Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
