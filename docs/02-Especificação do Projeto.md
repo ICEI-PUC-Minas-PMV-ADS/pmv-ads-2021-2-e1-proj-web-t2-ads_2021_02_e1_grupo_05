@@ -95,23 +95,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01|	O site deve oferecer menu contendo os horários vagos para os clientes visualizarem de acordo com o procedimento|Alta|
-|RF-02|	Site deve oferecer menu para o dono da clínica visualizar os horários marcados e livres|	Alta|
-|RF-03|	Site deve mandar mensagem automática para whatsapp/SMS|	Médio|
-|RF-04|	Site deve oferecer relatório de Hora/Homem (HM) para o dono do estabelecimento poder quantificar o tempo médio de cada procedimento|	Alta|
-|RF-05|	Site deve permitir exportação dos relatórios de Hora/Homem (HM) para formato de planilha|	Médio|
-|RF-06|	Site deve permitir que os clientes façam comentários opinativos sobre o serviço fornecido|	Baixo|
-|RF-07|	Site deve conter descrição de cada procedimento disponível para ser realizado|	Médio|
-|RF-08|	Site deve conter espaço de divulgação das redes sociais da clínica (Instagram, Tiktok, Facebook e Youtube)|	Baixo|
-|RF-09|	Site deve permitir que os clientes possam realizar buscas pelo nomes dos procedimentos|	Médio|
-|RF-10|	Site deve conter opção para o cliente entrar em contato com a clínica para cancelar, confirmar ou alterar horários|	Alto|
-|RF-11|	Site deve conter avisos referentes ao procedimento que o cliente está prestes a realizar|	Médio|
-|RF-12|	Site deverá conter questionário para o cliente sobre alergias com determinadas substâncias antes da confirmação do procedimento|	Médio|
-|RF-13|	Site deverá possibilitar o cliente criar um cadastro|	Baixo|
-|RF-14|	Site deverá possibilitar o cliente a consultar o histórico de procedimentos já realizados|	Baixo|
-|RF-15|	Site deve possibilitar o dono da clínica consultar perfil do cliente|	Baixo|
-|RF-16|	Site deve possibilitar dono consultar procedimentos já realizados por aquele cliente|	Baixo|
-|RF-17|	Site deve conter área para dicas de saúde|	Baixo|
+|RF-01|	Site deve permitir exportação dos relatórios de Hora/Homem (HM) para formato de planilha|	Alto|
+|RF-02|	Site deverá possibilitar o cliente criar um cadastro|	Alto|
+|RF-03|	Site deverá possibilitar a clínica criar um cadastro|	Alto|
+|RF-04|	Site deverá possibilitar o cliente buscar uma clínica|	Alto|
+|RF-05|	Site deverá conter sistema de chat do cliente com o profissional|	Alto|
 
 
 
@@ -119,9 +107,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01|	O site deve ser compatível com os navegadores mais utilizados (Google Chrome, Firefox, Microsoft Edge, Opera)|Alta|
-|RNF-02|	Site deve seguir as diretrizes da Lei Geral de Proteção de Dados Pessoais (LGPD)|	Alta|
-|RNF-03|	Site deve responder a pesquisa do cliente em até 3 segundos|Alta|
+|RNF-01|	O site deve ser compatível com o navegador (Google Chrome)|Alta|
 |RNF-04|	Site deve exibir todos elementos visuais (texto e ícones) na resolução mínima de 800x600 até 1920x1080|Alta|
 |RNF-05|	Site deve funcionar 24 horas por dia, 7 dias por semana|Alta|
 |RNF-06|	Site permitir portabilidade para aplicativos de smartphones em até 1 mês|Médio|
@@ -151,10 +137,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| 	O projeto deverá estar pronto até o prazo de entrega que será no dia 01/09/2023.| 
 |RE-02| 	O projeto deverá ser exclusivo ao respectivo público-alvo.| 
 |RE-03| 	O projeto deverá ser desenvolvido com toda a estrutura tecnológica Front-End.|  
-|RE-04| 	O projeto deverá ser responsivo e se comportar perfeitamente na maioria dos navegadores.(Google, Mozilla, Microsoft Edge…)|
+|RE-04| 	O projeto deverá ser responsivo e se comportar perfeitamente na maioria dos navegador (Google)|
 |RE-05| 	O projeto deverá ser desenvolvido e arquitetado apenas pela equipe responsável pelo mesmo.| 
 
 
