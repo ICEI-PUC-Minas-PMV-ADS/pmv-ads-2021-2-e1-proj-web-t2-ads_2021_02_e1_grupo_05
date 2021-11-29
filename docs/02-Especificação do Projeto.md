@@ -95,10 +95,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01|	Site deve permitir exportação dos relatórios de Hora/Homem (HM) para formato de planilha|	Alto|
+|RF-01|	Site deve permitir exportação dos relatórios de Hora/Homem (HM) para formato de planilha|	Baixo|
 |RF-02|	Site deverá possibilitar o cliente criar um cadastro|	Alto|
-|RF-03|	Site deverá possibilitar a clínica criar um cadastro|	Alto|
-|RF-04|	Site deverá possibilitar o cliente buscar uma clínica|	Alto|
+|RF-03|	Site deverá possibilitar o cliente fazer um agendamento|	Alto|
 |RF-05|	Site deverá conter sistema de chat do cliente com o profissional|	Alto|
 
 
