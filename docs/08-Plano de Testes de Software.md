@@ -2,12 +2,29 @@
 
 Os requisitos para realização dos testes de software são:
 
--	Site deverá possibilitar o cliente criar um cadastro	Alto
--	Site deverá possibilitar o cliente fazer um agendamento	Alto
+-	Site deverá possibilitar o cliente criar um cadastro no site
+-	Site deverá possibilitar o cliente fazer um agendamento
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
+Caso de Teste	CT-01 - Cadastrar usuário
+Requisitos Associados	RF-01 -Site deverá possibilitar o cliente criar um cadastro no site
+Passos: 1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Acessar a opção "Quero ser atendido"
+5) Realizar o cadastro
 
+Critérios de Êxito	●	O cadastro deverá ser realizado usando o Local Storage como banco de dados para a validação do usuário.
+
+Caso de Teste	CT-02 - Agendar horário
+Requisitos Associados	RF-03 - Site deverá possibilitar o cliente fazer um agendamento
+Passos: 1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Acessar a opção "Quero ser atendido"
+5) Realizar o cadastro
+6) Agendar seu horário
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
