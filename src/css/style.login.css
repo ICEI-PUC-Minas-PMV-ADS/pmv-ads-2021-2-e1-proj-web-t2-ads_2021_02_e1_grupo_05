@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner */
+.contentLogin{
+    display: flex;
+}
+.banner{
+    background-color: rgb(160, 0, 160);
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+.textLogin{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.textLogin h1{
+    color: white;
+}
+.imgLogin{
+    position: absolute;
+    bottom: -4px;
+}
+.imgLogin img{
+    width: 500px;
+    height: 100%;
+}
+
+/*Formulario*/
+.form{
+position: relative;
+background-color: white;
+width: 50%;
+height: 100vh;
+right: 0;
+padding: 20px;
+text-align: center;
+padding-top: 80px;
+}
+#card{
+position: relative;
+background-color: white;
+max-width: 400px;
+width: 100%;
+left: 50%;
+transform: translateX(-50%);
+padding: 20px;
+text-align: center;
+}
+h1{
+    padding-bottom: 20px;
+    color: rgb(194, 21, 194);
+    font-family: 'Kanit', sans-serif;
+}
+#msgSuccess, #msgError{
+    position: absolute;
+}
+#msgSuccess{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: green;
+    max-width: 200px;
+    width: 100%;
+    height: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -15px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+#msgError{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: red;
+    max-width: 300px;
+    width: 100%;
+    height: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -15px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.float-label{
+    margin-top: 20px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.float-label input{
+    width: 100%;
+    padding: 7px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: all .3s ease-out;
+    outline: none;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.float-label label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 8px;
+    pointer-events: none;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.float-label input:focus + label,
+.float-label input:valid + label{
+    margin-top: -10px;
+    font-size: 13px;
+}
+.fa-eye{
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#button{
+    position: relative;
+    margin: 40px 0 40px 0;
+    background-color: rgb(199, 28, 199);
+    border: 1px solid rgb(199, 28, 199);
+    width: 130px;
+    padding: 10px 0;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+#button:hover{
+    background-color: white;
+    border: 1px solid rgb(167, 0, 167);
+    color: rgb(167, 0, 167);
+}
+.faça-cadastro{
+    margin: 20px 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.faça-cadastro a{
+    color: rgb(167, 0, 167);
+}
+.faça-cadastro a:hover{
+    color: rgb(247, 0, 247);
+}
+
+@media screen and (max-width:900px){
+    .banner{
+        display: none;
+    }
+    .form{
+        width: 100%;
+    }
+    .form #card{
+        box-shadow: 0px 0px 5px rgb(133, 133, 133);
+        border-radius: 20px;
+    }
+}
