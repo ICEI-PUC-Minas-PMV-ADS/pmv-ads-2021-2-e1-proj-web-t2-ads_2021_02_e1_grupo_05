@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.login.css" rel="stylesheet">
+    <link href="./css/all.css" rel="stylesheet">
+    <title>ONESTÉTICA</title>
+
+    <!-- fontes -->
+
+        <!--Montserrat--><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+
+        <!--Kanit-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+        
+        <!-- Zen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="contentLogin">
+
+        <div class="banner">
+            <div class="textLogin">
+                <h1>Seu sonho a poucos cliques.</h1>
+            </div>
+            <div class="imgLogin">
+                <img src="./images/slider-woman-tratamentos_mini.png">
+            </div>
+        </div>
+
+        <div class="form">
+            <div id="card">
+
+                <h1>Login</h1>
+        
+                <!-- Mensagens -->
+        
+                <div id="msgSuccess">
+                    <h5>Login efetuado com sucesso</h5>
+                </div>
+        
+                <div id="msgError">
+                    <h5>Usuário inválido</h5>
+                </div>
+        
+                <div class="float-label">
+                    <input id="usuarioLogin" type="text" placeholder="" required>
+                    <label id="labelUsuarioLogin" for="usuarioLogin">Usuário</label>
+                </div><!--Float Label-->
+        
+                <div class="float-label">
+                    <input id="senhaLogin" type="password" placeholder="" required>
+                    <label id="labelSenhaLogin" for="senhaLogin">Senha</label>
+                    <i class="far fa-eye" id="verSenhaLogin"></i>
+                </div><!--Float Label-->
+        
+                <button id="button" onclick="entrar()">Entrar</button>
+        
+                <hr>
+        
+                <div class="faça-cadastro">
+                    <h5>Ja tem Login? <a href="./cadastro.html">Cadastre-se</a></h5>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/login.js"></script>
+</body>
+</html>

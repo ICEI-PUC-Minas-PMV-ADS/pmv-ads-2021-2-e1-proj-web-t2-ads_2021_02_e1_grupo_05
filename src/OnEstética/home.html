@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.homePage.css" rel="stylesheet">
+    <link href="./css/all.css" rel="stylesheet">
+    <title>ONESTÉTICA</title>
+</head>
+
+<body>
+    
+    <!-- Inicio Header -->
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#banner"><img src="./images/logo.png"></a>
+        </div><!-- logo -->
+
+        <nav class="navDesktop">
+            <ul id="menuDesktop">
+                <li>
+                    <a href="#banner">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#serviços">Nossos serviços</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+                <li>
+                    <a href="agenda.html">Agendamento</a>
+                </li>
+            </ul>
+        </nav>
+
+<!-- login desktop -->
+
+        <nav class="navMobile">
+            <div id="overlay"></div>
+            <button id="btnMobile"><span id="hamburguer"></span></button>
+            <ul id="menuMobile">
+                <li>
+                    <a href="#banner">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#serviços">Nossos serviços</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+                <li>
+                    <a href="agenda.html">Agendamento</a>
+                </li>
+            </ul>
+        </nav>
+
+        </div><!-- container -->
+
+    </header>
+
+    <!-- Final Header-->
+
+    <!-- inicio banner -->
+
+    <section id="banner">
+        <div class="contentBanner">
+            <h1>Como podemos ajudar?</h1>
+
+            <div class="inputBanner">
+               <a href="./cadastro.html">
+                   <input type="submit" value="Quero ser atendido">
+            </a>
+            </div>
+        </div>
+    </section><!-- banner -->
+
+    <!-- final banner -->
+
+    <!-- Inicio Sobre -->
+
+    <section id="sobre">
+        <div class="container">
+
+            <div class="contentSobre">
+                <div class="contentText">
+                    <h2>Sobre nós</h2>
+                    <p>
+                        A OnEstética foi criada com a finalidade de conectar você
+                        a sua felicidade. Com o propósito de facilitar e melhorar a
+                        comunicação entre você e profissionais qualificado, 
+                        fornecemos a você a possibilidade de mudar sua vida em poucos cliques.
+                        Ficou curioso(a)? Registre-se gratuitamente e experimente a nossa plataforma!
+                        </p>
+                </div>
+                <div class="contentImg">
+                    <img src="./images/Img Sobre.webp">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Serviços -->
+
+    <section id="serviços">
+        <div class="container">
+
+                <h2>Nossos Serviços</h2>
+
+                <div class="serviçosSingle">
+
+                    <div class="serviçoSingleB">
+                        <h1>Possibilidade de realizar seu cadastro na clínica</h1>
+                        <div class="iconeServiço" id="cadastroIconServicos"></div>
+                    </div>
+
+                    <div class="serviçoSingleA">
+                        <div class="iconeServiço" id="calendarioIconServicos"></div>
+                        <h1>Calendário com os horários disponíveis</h1>
+                    </div>
+
+                </div>
+
+                <div class="serviçosSingleMobile">
+
+                    <div class="serviçoSingle">
+                        <h1>Possibilidade de realizar seu cadastro na clínica</h1>
+                        <div class="iconeServiço" id="cadastroIconServicos"></div>
+                    </div>
+
+                    <div class="serviçoSingle">
+                        <h1>Calendário com os horários disponíveis</h1>
+                        <div class="iconeServiço" id="calendarioIconServicos"></div>
+                    </div>
+
+                </div>
+                    
+        </div><!--Container-->
+    </section>
+
+    <!-- Contato -->
+
+    <section id="contato">
+
+    <div class="contaiberContato">
+
+        <div class="imgContato">
+
+            <div class="overlayimgContato"></div>
+
+            <div class="contentImgContato">
+
+                <h1>Dúvidas?</h1>
+                <h1>Sugestões?</h1>
+                <h1>Reclamações?</h1>
+
+                <div class="arrows">
+                    <div id="rigth"><i class="fas fa-arrow-right"></i></div>
+                    <div id="down"><i class="fas fa-arrow-down"></i></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="formContato">
+            <form>
+                <h2>Entre em Contato!<i class="fas fa-envelope"></i></h2>
+
+                <p>Tem dúvidas? sugestões? Diga para nós!</p>
+                
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="email">
+                <input type="textarea" placeholder="Deixe sua mensagem">
+
+            </form>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+        <div class="desenvolvedores">
+            <h1>desenvolvedores:</h1>
+            <ul>
+                <li>Arthur Rocha</li>
+                <li>Ananery Ribeiro</li>
+                <li>Adriano Rodrigues</li>
+                <li>Marcelo Pimenta</li>
+                <li>Webert Figueiredo</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./scripts/home.js"></script>
+</body>
+</html>

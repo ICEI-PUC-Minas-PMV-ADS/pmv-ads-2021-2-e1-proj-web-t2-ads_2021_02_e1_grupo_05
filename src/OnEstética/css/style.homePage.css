@@ -1,0 +1,789 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    padding-top: 35px;
+    height: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    position: relative;
+}
+
+/*Header*/
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding: 10px 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .container .logo{
+    background-color: transparent;
+    max-width: 250px;
+    height: 50px;
+}
+header .container .logo img{
+    width: 250px;
+    height: 50px;
+}
+/* Menu Mobile*/
+.navMobile{
+    display: none;
+    margin: 15px 30px;
+}
+#btnMobile{
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 25px;
+    z-index: 99999999;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#btnMobile #hamburguer{
+    width: 20px;
+    border-top: 2px solid black;
+}
+#btnMobile #hamburguer::after, #btnMobile #hamburguer::before{
+    background-color: black;
+    content: '';
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin: 5px 0;
+    transition: .3s;
+}
+.active #btnMobile #hamburguer{
+    border-top: none;
+}
+.active #btnMobile #hamburguer::after{
+    margin-top: -7px;
+    transform: rotate(135deg);
+}
+.active #btnMobile #hamburguer::before{
+    transform: rotate(-135deg);
+}
+#menuMobile{
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    padding: 100px 2%;
+    transition: .6s;
+    z-index: 100;
+}
+#menuMobile li{
+    width: 80%;
+    margin-left: 5%;
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+#menuMobile a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#menuMobile a:hover{
+    color: rgb(207, 0, 207);
+}
+#menuMobile .loginMobile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+#menuMobile .loginMobile a{
+    padding: 10px 0;
+}
+#menuMobile .loginMobile i{
+    margin-right: 10px;
+}
+.active #menuMobile{
+    left: 0;
+}
+
+/* Menu Desktop*/
+.navDesktop #menuDesktop{
+    display: flex;
+}
+.navDesktop #menuDesktop li{
+    margin: 15px 0px 7px 40px;
+    list-style-type: none;
+}
+.navDesktop #menuDesktop a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 500;
+}
+.loginDesktop{
+    margin: 15px 0;
+    display: flex;
+}
+.loginDesktop li{
+    list-style-type: none;
+}
+.loginDesktop a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.loginDesktop a i{
+    color: rgb(128, 128, 128);
+    margin: 0 10px;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    display: none;
+}
+.navDesktop #menuDesktop a:hover{
+    color: rgb(207, 0, 207);
+}
+.loginDesktop a:hover{
+    color: rgb(207, 0, 207);
+}
+
+
+/* Banner */
+#banner{
+    background-color: #ccc;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/banner\ on\ stetic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contentBanner{
+    background-color: transparent;
+    width: 700px;
+    text-align: center;
+    top: 100px;
+    left: 10%;
+    position: relative;
+}
+.contentBanner h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.contentBanner input{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 40px;
+    margin: 30px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(0, 0, 0);
+}
+.contentBanner input:hover{
+    border: 1px solid rgb(207, 0, 207);
+    color: rgb(207, 0, 207);
+}
+
+/* Sobre */
+#sobre{
+    background-color: purple;
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+}
+.contentSobre{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+}
+.contentText{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    color: white;
+}
+.contentText h2{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.contentText p{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contentImg img{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    bottom: -4px;
+}
+@media  screen and (max-width:1100px) {
+    .contentSobre{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .contentText{
+    position: relative;
+    width: 50%;
+    right: 0;
+    margin-bottom: 40px;
+    max-width: 400px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contentImg img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: -4px;
+}
+}
+
+/* Serviços */
+#serviços{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#serviços h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 0, 207);
+    margin: 0 0 50px 0;
+}
+#serviços .container{
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+}
+.serviçosSingleMobile{
+    display: none;
+}
+.serviçosSingle{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+ .serviçoSingleA{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+ .serviçoSingleA .iconeServiço{
+    background-color: #ccc;
+    width: 50%;
+    height: 400px;
+    margin: 0 30px;
+}
+ .serviçoSingleA h1{
+    font-size: 60px;
+    max-width: 500px;
+    font-family: 'Poppins',sans-serif;
+    text-align: left;
+}
+.serviçoSingleB{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.serviçoSingleB .iconeServiço{
+    background-color: #ccc;
+    width: 50%;
+    height: 400px;
+    margin:  0 30px;
+}
+.serviçoSingleB h1{
+    font-size: 60px;
+    max-width: 500px;
+    font-family: 'Poppins',sans-serif;
+    text-align: left;
+}
+#cadastroIconServicos{
+    background-image: url(../images/ilustracao-cadastro.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#calendarioIconServicos{
+    background-image: url(../images/ilustraçao-calendario.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Contato */
+.contaiberContato{
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid black;
+    border: none;
+    border-top: 2px solid rgb(207, 0, 207);
+}
+.contaiberContato .imgContato{
+    position: relative;
+    background-color: #ccc;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+    border: none;
+    background-image: url(../images/image\ contato.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlayimgContato{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 9;
+}
+.contaiberContato .imgContato .contentImgContato{
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 10;
+}
+.contaiberContato .imgContato .arrows{
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+}
+.contaiberContato .imgContato .arrows i{
+    position: absolute;
+    color: white;
+}
+.contaiberContato .imgContato .arrows #rigth{
+    display: flex;
+}
+.contaiberContato .imgContato .arrows #down{
+    display: none;
+}
+
+/*Formulario*/
+.contaiberContato .formContato{
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+}
+.contaiberContato .formContato form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    width: 500px;
+    padding: 20px 20px;
+    color: rgb(190, 0, 190);
+}
+.contaiberContato .formContato form h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 10px 0;
+    font-size: 40px;
+}
+.contaiberContato .formContato form h2 i{
+    margin: 0 10px;
+}
+.contaiberContato .formContato form p{
+    margin: 0 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.contaiberContato .formContato form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border: 1px solid #ccc;
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(71, 0, 71);
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+footer .desenvolvedores{
+    position: relative;
+    color: white;
+    margin: 80px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer .desenvolvedores ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+footer .desenvolvedores ul li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+/* 1100 */
+
+@media screen and (max-width:1100px){
+    /* header */
+    header .logo{
+       position: relative;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+    .navDesktop{
+        display: none;
+    }
+    .navMobile{
+        display: block;
+        max-width: 500px;
+    }
+    .loginDesktop{
+        display: none;
+    }
+    #overlay{
+        display: none;
+        background-color: rgba(0,0,0,0.6);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .active #overlay{
+        display: block;
+        z-index: 9;
+    }
+
+    /* banner */
+
+    #banner{
+        height: 500px;
+    }
+    .contentBanner{
+        top: 80px;
+        width: 700px;
+        left: -30px;
+    }
+    .contentBanner h1{
+        font-size: 60px;
+        padding: 20px 0;
+    }
+    .contentBanner input{
+        padding: 20px 40px;
+        margin: 15px 18px;
+        font-size: 17px;
+    }
+    /* Sobre*/
+    #sobre{
+        padding: 80px 0 0 0;
+    }
+    #sobre .container .contentSobre{
+        display: block;
+    }
+    #sobre .container .contentSobre .textoSobre{
+        top: 20px;
+        max-width: 600px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #sobre .container .contentSobre .textoSobre p{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #sobre .container .contentSobre img{
+        left: 20%;
+        transform: translateX(-20%);
+        bottom: -4px;
+    }
+    /* Serviços */
+    .serviçosSingle{
+        display: none;
+    }
+    .serviçosSingleMobile{
+        background-color: transparent;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+    }
+    .serviçosSingleMobile .serviçoSingle{
+        background-color: transparent;
+        width: 100%;
+        margin: 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .serviçosSingleMobile .serviçoSingle h1{
+        font-size: 40px;
+    max-width: 500px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    }
+    .serviçosSingleMobile .serviçoSingle .iconeServiço{
+        background-color: green;
+        max-width: 400px;
+        width: 100%;
+        height: 400px;
+        margin: 40px 0;
+        
+    }
+    /* Contato */
+        .contaiberContato{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 1000px;
+        }
+        .contaiberContato .imgContato{
+            width: 100%;
+        }
+        .contaiberContato .formContato{
+            width: 100%;
+        }
+        .contaiberContato .imgContato .arrows #down{
+            display: flex !important;
+        }
+        .contaiberContato .imgContato .arrows #rigth{
+            display: none;
+        }
+    
+        /* formulario */
+        .contaiberContato .formContato form{
+            width: 400px;
+        }
+        .contaiberContato .formContato form h2{
+            font-size: 30px;
+        }
+
+}
+
+/* 800 */
+
+@media screen and (max-width:800px){
+    body,html{
+        padding-top: 20px;
+        height: 100%;
+    }
+    /* header */
+    header .logo{
+       position: relative;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+    .navDesktop{
+        display: none;
+    }
+    .loginDesktop{
+        display: none;
+    }
+
+    /* banner */
+
+    #banner{
+        height: 400px;
+    }
+    .contentBanner{
+        top: 40px;
+        width: 500px;
+        left: 20px;
+    }
+    .contentBanner h1{
+        font-size: 50px;
+        padding: 20px 0;
+    }
+    .contentBanner .inputBanner{
+        display: flex;
+        margin: 0;
+    }
+    .contentBanner .inputBanner input{
+        padding: 20px 20px;
+        margin: 20px 25px;
+    }
+    /* Sobre*/
+    #sobre{
+        padding: 100px 30px 0 30px;
+    }
+    #sobre .container .contentSobre{
+        display: block;
+    }
+    #sobre .container .contentSobre .textoSobre{
+        max-width: 400px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        border-right: none;
+        margin-bottom: 30px;
+    }
+    #sobre .container .contentSobre .textoSobre p{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #sobre .container .contentSobre img{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* 500 */
+
+
+@media screen and (max-width:800px){
+    body,html{
+        padding-top: 30px;
+        height: 100%;
+    }
+    /* header */
+    header{
+        padding: 10px 0;
+    }
+    header .logo{
+       position: relative;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+    .navDesktop{
+        display: none;
+    }
+    .loginDesktop{
+        display: none;
+    }
+
+    /* banner */
+
+    #banner{
+        height: 350px;
+    }
+    .contentBanner{
+        background-color: transparent;
+        position: relative;
+        top: 40px;
+        width: 400px;
+        left: 0;
+    }
+    .contentBanner h1{
+        font-size: 35px;
+        padding: 20px 0;
+        margin-left: 30px;
+    }
+    .contentBanner .inputBanner{
+        display: flex;
+        margin: 0;
+    }
+    .contentBanner .inputBanner input{
+        padding: 20px 20px;
+        margin: 10px 0 0 20px;
+        font-size: 16px;
+    }
+
+    /* Sobre */
+    #sobre .container .contentSobre .textoSobre{
+        position: relative;
+        background-color: transparent;
+        width: 100%;
+        padding: 30px 20px;
+        color: white;
+    }
+    #sobre .container .contentSobre .textoSobre h1{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #sobre .container .contentSobre .textoSobre p{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
